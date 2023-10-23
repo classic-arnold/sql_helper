@@ -1,6 +1,6 @@
 # SQL Helper
 
-This program helps to create a decision tree from sql queries used during a guessing game to guess a chosen movie in a database of movies.
+This program helps to create a decision tree from sql queries using a recursion algorithm used during a guessing game to guess a chosen movie in a database of movies.
 
 ## How to run
 
