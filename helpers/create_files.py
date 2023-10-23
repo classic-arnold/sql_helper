@@ -1,5 +1,5 @@
-for i in range(3,6):
-    with open(f"{i}.sql", "x"):
+for i in range(1,6):
+    with open(f"../sql_files/{i}.sql", "x"):
         pass
-    with open(f"{i}.opp.sql", "x"):
+    with open(f"../sql_files/{i}.opp.sql", "x"):
         pass

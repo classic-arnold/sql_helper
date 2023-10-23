@@ -29,8 +29,8 @@ try:
                 if query_no == 6:
                     return
 
-                with open(f"{query_no}.sql", "r+") as query:
-                    with open(f"{query_no}.opp.sql", "r+") as query_opp:
+                with open(f"sql_files/{query_no}.sql", "r+") as query:
+                    with open(f"sql_files/{query_no}.opp.sql", "r+") as query_opp:
                         # query
                         cursor.execute(query.read())
                         res = cursor.fetchall()
