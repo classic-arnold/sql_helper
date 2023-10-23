@@ -16,3 +16,9 @@ pip install -r requirements.txt
 ```
 python SQL_helper.py
 ```
+
+## Author
+Umakhihe Arnold
+
+## Licenses
+Nil
