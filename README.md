@@ -12,7 +12,11 @@ python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
-4. Run the program:
+4. Load the environment variables into the virtual environment:
+```
+export $(xargs < .env)
+```
+5. Run the program:
 ```
 python SQL_helper.py
 ```
