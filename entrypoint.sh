@@ -1,4 +1,2 @@
-source venv/bin/activate
-export $(xargs < .env)
-pip install -r requirements.txt
+#!/bin/bash
 python SQL_helper.py
